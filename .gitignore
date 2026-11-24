@@ -1,0 +1,39 @@
+# Node Dependencies
+node_modules/
+*/node_modules/
+backend/node_modules/
+frontend/node_modules/
+blockchain/node_modules/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+
+# Sandboxes & Local Logs
+.appdata/
+.localappdata/
+*.log
+hardhat-node.log
+
+# Hardhat & Solidity Artifacts Cache
+blockchain/cache/
+blockchain/artifacts/build-info/
+
+# Frontend Production Build
+frontend/dist/
+frontend/.vite/
+
+# Operating System & Editor Files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

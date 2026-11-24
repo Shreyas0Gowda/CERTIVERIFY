@@ -1,0 +1,164 @@
+{
+  "admins": [
+    {
+      "_id": "admin_1794387901387",
+      "username": "admin",
+      "email": "admin@certiverify.edu",
+      "passwordHash": "$2a$10$KcuiqrTexqaUdMdtx2RjAOYF0yvyPvQ4H48f3UBDklyrqi.LuTPQe",
+      "walletAddress": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+      "role": "admin",
+      "createdAt": "2026-11-11T09:05:01.387Z"
+    }
+  ],
+  "certificates": [
+    {
+      "_id": "cert_seed_1",
+      "certificateId": "CERT-2026-STAN-001",
+      "certificateHash": "970e34df3e25cf7afae8ee96a7b69ab794349bb1b494a867a3e6e80667772bd3",
+      "studentName": "Alex Morgan",
+      "studentId": "STU-99214",
+      "institution": "Stanford Institute of Technology",
+      "certificateTitle": "Bachelor of Science in Computer Science & Engineering",
+      "department": "Computer Science & Engineering",
+      "graduationYear": 2026,
+      "issueDate": "2026-05-15",
+      "blockchainTransactionHash": "0xda57c7b56e20b52597176d57a12564bce659b95e3a191e923e52aa328d3459b9",
+      "issuerWallet": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+      "originalFileName": "Alex_Morgan_CS_Authentic.pdf",
+      "fileSize": 1663,
+      "status": "authentic",
+      "createdAt": "2026-11-21T03:32:21.512Z"
+    },
+    {
+      "_id": "cert_seed_2",
+      "certificateId": "CERT-2025-MBA-089",
+      "certificateHash": "29614c35e1b4e10f9522460054fc3c5999d7ddba154166cc384376d72b1a7c4c",
+      "studentName": "Sophia Chen",
+      "studentId": "STU-88102",
+      "institution": "Stanford Institute of Technology",
+      "certificateTitle": "Master of Business Administration (Finance & Analytics)",
+      "department": "School of Management",
+      "graduationYear": 2025,
+      "issueDate": "2025-06-20",
+      "blockchainTransactionHash": "0x64c68b1e0a11e6fb099ef09f5cabcc69cf56318acef53e2e7d8e429790af0ed8",
+      "issuerWallet": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+      "originalFileName": "Sophia_Chen_MBA_Revoked.pdf",
+      "fileSize": 1647,
+      "status": "revoked",
+      "revocationReason": "Degree revoked due to academic thesis misconduct and honor code violation",
+      "revocationTimestamp": "2026-11-21T03:32:21.512Z",
+      "revocationTxHash": "0xc51b21fa4aabb2ec251f850b8dea0433bd2006d77add1965027953df0e7294f5",
+      "createdAt": "2026-11-21T03:32:21.512Z"
+    },
+    {
+      "_id": "cert_1795423367616",
+      "certificateId": "CERT-2026-VTU-001",
+      "certificateHash": "4b06897488a1eef94537f633eabb5497c52fe1b785fdd2498c9ab4f327d4cca2",
+      "studentName": "Shreyas Kumar",
+      "studentId": "STU-2026-991",
+      "institution": "Visvesvaraya Technological University",
+      "certificateTitle": "Bachelor of Engineering in Computer Science",
+      "department": "Computer Science & Engineering",
+      "graduationYear": 2026,
+      "issueDate": "2026-11-23",
+      "blockchainTransactionHash": "0x063247c734ef696c2885242916907e9ec2d83e28b62ec6358d8d1da7b09b911f",
+      "issuerWallet": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+      "originalFileName": "CERTIVERIFY_Sample_Academic_Certificate.pdf",
+      "fileSize": 28086,
+      "status": "authentic",
+      "createdAt": "2026-11-23T08:42:47.616Z"
+    }
+  ],
+  "verificationLogs": [
+    {
+      "_id": "log_1795414051538",
+      "certificateHash": "970e34df3e25cf7afae8ee96a7b69ab794349bb1b494a867a3e6e80667772bd3",
+      "verificationResult": "authentic",
+      "certificateId": "CERT-2026-STAN-001",
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "notes": "Verified authentic on-chain",
+      "verifiedAt": "2026-11-23T06:07:31.538Z"
+    },
+    {
+      "_id": "log_1795414235185",
+      "certificateHash": "29614c35e1b4e10f9522460054fc3c5999d7ddba154166cc384376d72b1a7c4c",
+      "verificationResult": "revoked",
+      "certificateId": "CERT-2025-MBA-089",
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "notes": "Revoked certificate detected on-chain",
+      "verifiedAt": "2026-11-23T06:10:35.185Z"
+    },
+    {
+      "_id": "log_1795423426253",
+      "certificateHash": "4b06897488a1eef94537f633eabb5497c52fe1b785fdd2498c9ab4f327d4cca2",
+      "verificationResult": "authentic",
+      "certificateId": "CERT-2026-VTU-001",
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "notes": "Verified authentic on-chain",
+      "verifiedAt": "2026-11-23T08:43:46.253Z"
+    },
+    {
+      "_id": "log_1795496571065",
+      "certificateHash": "4b06897488a1eef94537f633eabb5497c52fe1b785fdd2498c9ab4f327d4cca2",
+      "verificationResult": "invalid",
+      "certificateId": null,
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "notes": "No matching record on blockchain",
+      "verifiedAt": "2026-11-24T05:02:51.065Z"
+    },
+    {
+      "_id": "log_1795496599725",
+      "certificateHash": "4b06897488a1eef94537f633eabb5497c52fe1b785fdd2498c9ab4f327d4cca2",
+      "verificationResult": "invalid",
+      "certificateId": null,
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.0.0 Safari/537.36",
+      "notes": "No matching record on blockchain",
+      "verifiedAt": "2026-11-24T05:03:19.725Z"
+    },
+    {
+      "_id": "log_1795496650344",
+      "certificateHash": "4b06897488a1eef94537f633eabb5497c52fe1b785fdd2498c9ab4f327d4cca2",
+      "verificationResult": "invalid",
+      "certificateId": null,
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "notes": "No matching record on blockchain",
+      "verifiedAt": "2026-11-24T05:04:10.344Z"
+    },
+    {
+      "_id": "log_1795496699796",
+      "certificateHash": "4b06897488a1eef94537f633eabb5497c52fe1b785fdd2498c9ab4f327d4cca2",
+      "verificationResult": "invalid",
+      "certificateId": null,
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "notes": "No matching record on blockchain",
+      "verifiedAt": "2026-11-24T05:04:59.796Z"
+    },
+    {
+      "_id": "log_1795496747726",
+      "certificateHash": "4b06897488a1eef94537f633eabb5497c52fe1b785fdd2498c9ab4f327d4cca2",
+      "verificationResult": "invalid",
+      "certificateId": null,
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "notes": "No matching record on blockchain",
+      "verifiedAt": "2026-11-24T05:05:47.726Z"
+    },
+    {
+      "_id": "log_1795497941831",
+      "certificateHash": "970e34df3e25cf7afae8ee96a7b69ab794349bb1b494a867a3e6e80667772bd3",
+      "verificationResult": "authentic",
+      "certificateId": "CERT-2026-STAN-001",
+      "ipAddress": "::1",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+      "notes": "Verified authentic on-chain",
+      "verifiedAt": "2026-11-24T05:25:41.831Z"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "authentic": {
+    "path": "c:\\Users\\Shreyas\\Downloads\\Blockchain\\sample-certificates\\Alex_Morgan_CS_Authentic.pdf",
+    "hash": "970e34df3e25cf7afae8ee96a7b69ab794349bb1b494a867a3e6e80667772bd3",
+    "size": 1663
+  },
+  "tampered": {
+    "path": "c:\\Users\\Shreyas\\Downloads\\Blockchain\\sample-certificates\\Alex_Morgan_CS_Tampered.pdf",
+    "hash": "ef91a44b26157fed06f9a01281adc7b5adc75ebe2d56ddada0c7af1436e4c85a",
+    "size": 1675
+  },
+  "revoked": {
+    "path": "c:\\Users\\Shreyas\\Downloads\\Blockchain\\sample-certificates\\Sophia_Chen_MBA_Revoked.pdf",
+    "hash": "29614c35e1b4e10f9522460054fc3c5999d7ddba154166cc384376d72b1a7c4c",
+    "size": 1647
+  },
+  "unregistered": {
+    "path": "c:\\Users\\Shreyas\\Downloads\\Blockchain\\sample-certificates\\Unregistered_Certificate.pdf",
+    "hash": "c8604692505be61bfa361e874acc32bd8cb9e856b289898447608e662c7fe38f",
+    "size": 1647
+  }
+}
